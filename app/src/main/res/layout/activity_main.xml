@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="normal" />
+
+        <Button
+            android:id="@+id/pressed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pressed" />
+
+        <Button
+            android:id="@+id/fucused"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="focused" />
+
+        <Button
+            android:id="@+id/selected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="selected" />
+
+        <Button
+            android:id="@+id/disabled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="disabled" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/icon_test"
+        android:layout_gravity="center"
+        android:focusable="true"/>
+
+</LinearLayout>
