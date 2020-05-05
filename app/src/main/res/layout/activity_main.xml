@@ -4,7 +4,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:clipChildren="false"
+    android:orientation="vertical" >
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -42,20 +43,42 @@
             android:text="disabled" />
     </LinearLayout>
 
-    <ImageView
-        android:id="@+id/icon"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/icon_test"
-        android:layout_gravity="center"
-        android:focusable="true"/>
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:clipChildren="false"
+        android:background="#000000" >
 
-    <ImageView
-        android:id="@+id/anim"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/icon_animation"
-        android:layout_gravity="center"
-        android:focusable="true"/>
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/icon_test"
+            android:layout_gravity="center"
+            android:focusable="true"
+            android:clickable="true" />
+
+        <ImageView
+            android:id="@+id/anim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:focusable="true"
+            app:srcCompat="@drawable/icon_animation" />
+
+        <com.sample.myapplication.ShadowLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:focusable="true"
+                app:srcCompat="@drawable/icon_pressed" />
+        </com.sample.myapplication.ShadowLayout>
+
+    </LinearLayout>
 
 </LinearLayout>
