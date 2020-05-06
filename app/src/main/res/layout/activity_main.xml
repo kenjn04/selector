@@ -46,19 +46,19 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_gravity="center_horizontal"
+        android:background="#000000"
         android:clipChildren="false"
-        android:background="#000000" >
+        android:orientation="horizontal">
 
         <ImageView
             android:id="@+id/icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/icon_test"
             android:layout_gravity="center"
+            android:clickable="true"
             android:focusable="true"
-            android:clickable="true" />
+            app:srcCompat="@drawable/icon_test" />
 
         <ImageView
             android:id="@+id/anim"
@@ -71,6 +71,7 @@
         <com.sample.myapplication.ShadowLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -79,6 +80,160 @@
                 app:srcCompat="@drawable/icon_pressed" />
         </com.sample.myapplication.ShadowLayout>
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/tint01"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/icon_normal" />
+
+        <ImageView
+            android:id="@+id/tint02"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/icon_normal" />
+
+        <ImageView
+            android:id="@+id/tint03"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/icon_normal" />
+
+        <ImageView
+            android:id="@+id/tint04"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/icon_normal" />
+
+        <ImageView
+            android:id="@+id/tint05"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/icon_normal" />
+
+        <ImageView
+            android:id="@+id/tint06"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/icon_normal" />
+
+        <ImageView
+            android:id="@+id/tint07"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/icon_normal" />
+
+        <ImageView
+            android:id="@+id/tint08"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/icon_normal" />
+
+        <ImageView
+            android:id="@+id/tint09"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/icon_normal" />
+
+        <ImageView
+            android:id="@+id/tint10"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/icon_normal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/tint21"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/icon_normal" />
+
+        <ImageView
+            android:id="@+id/tint22"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/icon_normal" />
+
+        <ImageView
+            android:id="@+id/tint23"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/icon_normal" />
+
+        <ImageView
+            android:id="@+id/tint24"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/icon_normal" />
+
+        <ImageView
+            android:id="@+id/tint25"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/icon_normal" />
+
+        <ImageView
+            android:id="@+id/tint26"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/icon_normal" />
+
+        <ImageView
+            android:id="@+id/tint27"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/icon_normal" />
+
+        <ImageView
+            android:id="@+id/tint28"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/icon_normal" />
+
+        <ImageView
+            android:id="@+id/tint29"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/icon_normal" />
+
+        <ImageView
+            android:id="@+id/tint30"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/icon_normal" />
     </LinearLayout>
 
 </LinearLayout>
